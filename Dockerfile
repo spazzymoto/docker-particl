@@ -7,9 +7,9 @@ RUN set -ex \
 	&& apt-get install -qq --no-install-recommends ca-certificates dirmngr gosu wget \
 	&& rm -rf /var/lib/apt/lists/*
 
-ENV PARTICL_VERSION 0.17.1.3
-ENV PARTICL_URL https://github.com/particl/particl-core/releases/download/v0.17.1.3/particl-0.17.1.3-x86_64-linux-gnu.tar.gz
-ENV PARTICL_SHA256 235aaea5533db4fc9819afab050f54ca7fe64770a824249d56dd15a223989072
+ENV PARTICL_VERSION 0.18.0.4
+ENV PARTICL_URL https://github.com/particl/particl-core/releases/download/v0.18.0.4alpha/particl-0.18.0.4-x86_64-linux-gnu.tar.gz
+ENV PARTICL_SHA256 29f77db28f30c1d914f1a1568eff9aad43aac58e4dcdff79334393905556ea89
 
 # install particl binaries
 RUN set -ex \
